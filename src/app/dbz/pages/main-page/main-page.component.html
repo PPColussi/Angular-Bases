@@ -1,0 +1,17 @@
+<h1>Por La Espada De Fuego!!!!!</h1>
+<hr>
+
+<div class="row">
+  <div class="col">
+    <dbp-app-list
+
+    (deleteById)="deleteCharacterById($event)"
+    [characterList]="characters">
+  </dbp-app-list>
+  </div>
+
+<div class="col">
+  <dbz-add-character (onNewCharacter)="onNewCharacter($event)"></dbz-add-character>
+</div>
+
+</div>
